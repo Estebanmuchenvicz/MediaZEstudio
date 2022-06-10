@@ -8,13 +8,13 @@
 }
 
 body{
-    padding: 170px 20px 0;
+    max-width: 1200px;
+    padding: 160px 20px 0;
+    background-color: #030303;
+    margin: auto;
 }
 
-main{
-    padding: 10px 20px 0;
-
-}
+/*SECCIÓN HEADER*/
 
 .header{
     width: 100%;
@@ -22,10 +22,16 @@ main{
     top: 0;
     left: 0;
     background-color: white;
-    height: 160px;
+    height: 120px;
 
 
 }
+
+/*.header__superior_mod{
+    height: 0px;
+    box-shadow: 1px 1px 10px 0px grey;
+
+}*/
 
 
 /* HEDER SUPERIOR */
@@ -33,18 +39,18 @@ main{
 .heder__superior{
     max-width: 1200px;
     margin: auto;
-    background-color: w;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    height: 90px;
+    height: 60px;
     
     
 }
 
 .logo img{
-    width: 100px;
+    width: 70px;
     
 }
 
@@ -76,9 +82,9 @@ ul > li > img{
 
 .container__menu{
     width: 100%;
-    height: 70px;
-    background-color: #3a112f;
-    padding: 0px 20px;
+    height: 60px;
+    background-color: #BA1A8F;
+    padding: 2px 20px 0px;
     
 }
 
@@ -134,13 +140,13 @@ ul > li > img{
 
 .link-menu:hover{
     transform: scale(1.1);
-    background: #AB99BF;
+    background: #634388;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #selected{
     transform: scale(1.1);
-    background-color: #AB99BF;
+    background-color: #634388;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -213,13 +219,66 @@ nav ul li:hover ul{
     display: none;
 }
 
+/*SECCION MAIN*/
+
+main{
+    padding: 14px 14px 14px;
+    height: 100%;
+}
+
+.hero{
+   
+}
+
+
+
+.hero__container{
+    background-image: url(../img/portada.png);
+    max-width: 1180px;
+    height: 490px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.hero__1{
+    font-size: 2em;
+    padding: 10px 20px;  
+    color: #fff;
+}
+
+.hero__2, .hero__3, .hero__4{
+    font-size: 3.5em;
+    padding: 10px 20px;
+    color: rgb(236, 155, 205);
+}
+    
+
+.hero__5{
+    font-size: 1.5em;
+    padding: 10px 20px;  
+    color: #fff;
+    
+}
+
+.hero__boton{
+    color: #fff;
+    align-content: center;
+    text-decoration: none;
+    background-color: #5A04BD;
+    justify-content:space-around;
+}
+
+
 @media screen and (max-width: 720px){
+    
+
     .header{
         position: fixed;
+        
     }
 
     .heder__superior{
-        padding: 10px;
+        padding: 5px;
         flex-wrap: wrap;
         
     }
@@ -228,17 +287,14 @@ nav ul li:hover ul{
         width: 50px;
     }
 
-    .container__menu{
-     
-    
-    }
+
 
     .menu-principal{
         flex-direction: column;
         background: #13011f;
         position: fixed;
         left: 0%;
-        top: 150px;
+        top: 120px;
         width: 100%;
         height: 230px;
         transition: all 300ms ease;
