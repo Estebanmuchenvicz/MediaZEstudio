@@ -15,6 +15,7 @@ body{
     padding: 160px 5px 0;
     background-color: #ffffff;
     margin: auto;
+
 }
 
 /*SECCIÓN HEADER*/
@@ -54,6 +55,7 @@ body{
 
 .logo img{
     width: 70px;
+    cursor: pointer;
     
 }
 
@@ -68,6 +70,7 @@ ul > li{
 
 .redes img{
     width: 30px;
+    cursor: pointer;
 }
 
 ul > li > img{
@@ -79,6 +82,12 @@ ul > li > img{
     display: flex;
     padding: 5px;
     align-items: center;
+}
+
+.redes ul > li:hover{
+    *background-color: #BA1A8F;
+    border-radius: 20px;
+    transform: scale(1.3);
 }
 
 /* BARRA MENU */
@@ -280,11 +289,12 @@ main{
     cursor: pointer;
     border-radius: 50px;
     border: 2px solid transparent;
-    transition: all 300ms ease;
+    transition: all 300ms ease-out;
     letter-spacing: 0.5px; /*Para separar un poco las letras*/
 }
 
 .hero__boton:hover{
+    
     transform: scale(1.1);
     background-color: #99cc33;
 }
@@ -339,6 +349,9 @@ main{
     display: block;
     text-transform: uppercase;
 }
+
+
+
 .texto{
     padding: 60px;
 }
@@ -429,6 +442,10 @@ footer{
     background-color: #000000;
 }
 
+.desarrollador{
+    text-decoration: none;
+    color: #000000;
+}
 
 
 
