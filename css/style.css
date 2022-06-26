@@ -88,10 +88,10 @@ ul > li > img{
     align-items: center;
 }
 
-.redes ul > li:hover{
-    *background-color: #BA1A8F;
+.redes ul > li >img:hover{
+    background-color: #634388;
     border-radius: 20px;
-    transform: scale(1.3);
+    transform: scale(1);
 }
 
 /* BARRA MENU */
@@ -335,19 +335,6 @@ main{
 
 
 
-.animation{
-    animation-name: animation-portada;
-    animation-duration: 4s;
-    /* animation-delay: -2s; */
-}
-
-@keyframes animation-portada{
-    0%   {top:0px;}
-  50%  {top:500px;}
-  75%  {top:500px;}
-  100% {top:0px;}
-}
-
 
 /*SECCIÓN SERVICIOS*/
 
@@ -404,7 +391,59 @@ main{
     box-shadow: inset 0 0 20px black;
   }
 
+/*SECCION FORMULARIO*/
 
+.section-form{
+    max-width: 1200px;
+    display: flex;
+    background-color: rgb(182, 136, 184);
+    padding: 14px 20px 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.redes-form img{
+    width: 40px;
+    *cursor: pointer;
+}
+
+.redes-form{
+    
+    padding: 5px;
+    align-items: center;
+}
+
+.cel{
+    /* display: center;
+    text-align: center;
+    align-items: center; */
+    font-size: 1.2em;
+    padding: 0px;
+
+}
+
+.direction{
+    font-size: 1.2em;
+}
+
+.btn-form{
+text-align: center;
+    
+}
+
+.btn-envio{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1em;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#menssage{
+    width: 250px;
+    height: 110px;
+}
 
 
 /*SECCIÓN FOOTER*/
@@ -570,6 +609,12 @@ footer{
        visibility: visible;
        left: 0;
    }
+
+   .section-form{
+    flex-direction: column;
+    margin-right: 20px;
+    
+}
 
 
 }
