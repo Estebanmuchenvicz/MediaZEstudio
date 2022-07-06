@@ -273,7 +273,7 @@ main{
     font-size: 2.7em;
     text-align: left;
     margin-left: 40px;
-    color: rgb(255, 255, 255);
+    color: rgb(197, 116, 180);
 }
     
 
@@ -404,15 +404,26 @@ main{
     /* text-transform: uppercase; */
 }
 
+.line-destacadas{
+    border-color: #BA1A8F;
+    width: 40%;
+    justify-content: center;
+    margin-left: 30%;
+    
+    
+}
+
 .container-cards{
+    background-color: #ffffff;
     max-width: 1200px;
     padding: 10px;
     padding-bottom: 40px;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center
+    
 }
 
 
@@ -473,9 +484,9 @@ main{
     padding: 10px 10px;
 }
 
-.redes-form img{
+.redes-form icon{
     width: 40px;
-    *cursor: pointer;
+    
 }
 
 .redes-form{
@@ -485,16 +496,30 @@ main{
 }
 
 .cel{
-    display: center;
+    text-decoration: none;
+    display: inline-block;
     text-align: center;
     align-items: center;
-    font-size: 1.5em;
-    padding: 0px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #000000;
+}
 
+.mail{
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+    cursor: pointer;
+    font-size: 1.2em;
 }
 
 .direction{
-    font-size: 1.5em;
+    font-size: 1.2em;
+}
+
+.line-date{
+    width: 47%;
+    border-color: #99cc33;
 }
 
 .btn-form{
@@ -527,6 +552,145 @@ text-align: center;
     text-align: left;
     font-size: 1.2em;
 }
+
+/* SECCIÓN ABOUT */
+
+.descripcion-desarrollador{
+    /* position: static;   */
+    margin: 20px 10px;
+    height: 450px;
+    width: 1075px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* .container{
+    position: static;
+  }
+
+  .content{
+    position: static;
+  } */
+
+  
+  .card{
+    width: 250px;
+    height: 350px;
+    /* position: relative; */
+    background: #fff;
+    border-radius: 20px;
+    margin: 20px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  
+  .content-color{
+    /* content: "";
+    position: absolute; */
+    height: 40%;
+    width: 100%;
+    background: #7d2ae8;
+    border-radius: 20px 20px 0 0;
+  }
+  
+  .card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    /* position: relative; */
+    z-index: 100;
+  }
+  
+  section .card .image{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #7d2ae8;
+  }
+  
+  section .card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+  
+  .media-icons{
+    
+    /* position: absolute; */
+    /* top: 10px;
+    right: 20px; */
+    justify-content: space-around;
+    display: flex;
+    /* flex-direction:; */
+    align-items:center;
+    
+  }
+  
+  .media-icons > i{
+    color: #000000;
+    opacity: 0.6;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .card .media-icons i:hover{
+    opacity: 1;
+  }
+  
+  .card .name-profession{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: ;
+  } 
+  
+  .name-profession .name{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .name-profession .profession{
+    font-size:15px;
+    font-weight: 500;
+  }
+  
+  .card .rating{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+  }
+  
+  .card .rating i{
+    font-size: 18px;
+    margin: 0 2px;
+    color: #7d2ae8;
+  }
+  
+  .card .button{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .card .button button{
+    background: #7d2ae8;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
 
 /*SECCIÓN FOOTER*/
 
