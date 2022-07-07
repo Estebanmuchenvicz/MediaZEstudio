@@ -294,7 +294,7 @@ main{
     margin-bottom: 40px;
     color: #fff;
     text-decoration: none;
-    background-color: #1A8FBA;
+    background-color: #7d2ae8;
     cursor: pointer;
     border-radius: 50px;
     border: 2px solid transparent;
@@ -460,7 +460,7 @@ main{
     margin-bottom: 40px;
     color: #000000;
     text-decoration: none;
-    background-color: #0cd80c;
+    background-color: #7d2ae8;
     cursor: pointer;
     border-radius: 50px;
     border-style: solid;
@@ -555,10 +555,42 @@ text-align: center;
 
 /* SECCIÓN ABOUT */
 
+.about-company{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-description{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
 .nuestro-equipo{
     text-align: center;
     padding: 20px;
     font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.services-title{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sction-jobs{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.curriculum{
+    text-align: center;
+    padding: 20px;
 }
 
 .cards-desarrollador{
@@ -571,22 +603,14 @@ text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 
-.description-desarrollador{
-        background-color: #ffffff;
-        max-width: 1200px;
-        padding: 30px;
-        padding-bottom: 40px;
-        margin: auto;
-        margin-top: 10px;
-        display: flex;
-        justify-content: space-around;
-}
 
 .card{
     width: 250px;
     height: 350px;
+    margin: 10px;
     border-radius: 20px;
     background: linear-gradient(0deg,#ffffff 60%, #7d2ae8 40% );
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
@@ -599,6 +623,7 @@ text-align: center;
     flex-direction: column;
     align-items: center;
     padding: 30px;
+    
 }
 
 .card-header1{
@@ -857,6 +882,9 @@ footer{
     
 }
 
+.media-icons{
+    margin-left: 15%;
+}
 
 
 }
