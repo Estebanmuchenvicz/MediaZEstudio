@@ -333,6 +333,18 @@ main{
     
 }
 
+.animation{
+    animation: banner-anim 2s ease-in 1;
+}
+
+@keyframes banner-anim {
+    from {
+        left: -100%;
+      }
+      to {
+        left: 100%;
+      }
+    }
 
 
 
@@ -581,16 +593,55 @@ text-align: center;
     font-family: 'Poppins', sans-serif;
 }
 
+.section-cv{
+    max-width: 1200px;
+    height: 90%;
+    background: rgba(0, 0, 0, 0.8)  url(../img/equipo.jpg);
+    padding: 20px;
+    margin-top: 30px;
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
 .sction-jobs{
     text-align: center;
     padding: 20px;
     font-size: 1.5em;
     font-family: 'Poppins', sans-serif;
+    color: #ffffff;
 }
 
 .curriculum{
-    text-align: center;
+    
     padding: 20px;
+}
+
+.enviar-cv{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    padding: 14px 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.form-cv{
+    
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.camp-cv{
+    width: 300px;
+    
+    padding: 10px 10px;
+    background-color: #634388;
 }
 
 .cards-desarrollador{
