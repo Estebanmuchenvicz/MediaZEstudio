@@ -35,11 +35,6 @@ body{
 
 }
 
-/*.header__superior_mod{
-    height: 0px;
-    box-shadow: 1px 1px 10px 0px grey;
-
-}*/
 
 
 /* HEDER SUPERIOR */
@@ -255,7 +250,6 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
-    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); */
     margin-top: 0 0 90px;
     padding: 40px 0 0;
     
@@ -351,9 +345,9 @@ main{
 /*SECCIÓN SERVICIOS*/
 
 .diseñoweb-banner{
-    
     max-width: 1200px;
     height: auto;
+    border-radius: 20px;
     background:rgba(0, 0, 0, 0.7) url(../img/fondo-diseño-web.jpg);
     margin-top: 10px;
     background-size: cover;
@@ -365,7 +359,6 @@ main{
     color: #fff;
     padding: 35px 0 2px;
     text-align: center;
-
     display: block;
     text-transform: uppercase;
 }
@@ -377,7 +370,6 @@ main{
     margin-bottom: 40px;
     color: #ffffff;
     text-decoration: none;
-    *background-color: #0cd80c;
     cursor: pointer;
     border-radius: 50px;
     border-style: solid;
@@ -388,7 +380,7 @@ main{
 .btn-banner1{
     text-align: center;
     padding: 30px 0 50px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .btn1-web:hover{
@@ -402,6 +394,75 @@ main{
 .btn1-web:active {
     box-shadow: inset 0 0 20px black;
   }
+
+.description-services{
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+    margin: 0 20%;
+    margin-top: 10px;
+    
+}
+
+.socialmedia-banner{
+    max-width: 1200px;
+    height: auto;
+    border-radius: 20px;
+    background:rgba(0, 0, 0, 0.8) url(../img/social-media.jpg);
+    margin-top: 10px;
+    background-size: cover;
+    background-blend-mode: darken;
+    margin-top: 60px;
+}
+
+.contenidoradio-banner{
+    max-width: 1200px;
+    height: auto;
+    border-radius: 20px;
+    background:rgba(0, 0, 0, 0.8) url(../img/emisora-radio.jpg);
+    margin-top: 10px;
+    background-size: cover;
+    background-blend-mode: darken;
+    margin-top: 60px;
+
+}
+
+.contenidotv-banner{
+    max-width: 1200px;
+    height: auto;
+    border-radius: 20px;
+    background:rgba(0, 0, 0, 0.8) url(../img/emisora-radio.jpg);
+    margin-top: 10px;
+    background-size: cover;
+    background-blend-mode: darken;
+    margin-top: 60px;
+}
+
+.contenidotv-banner{
+    max-width: 1200px;
+    height: auto;
+    border-radius: 20px;
+    background:rgba(0, 0, 0, 0.8) url(../img/estudio-tv.jpg);
+    margin-top: 10px;
+    background-size: cover;
+    background-blend-mode: darken;
+    margin-top: 60px;
+}
+
+.publicidad-banner{
+    max-width: 1200px;
+    height: auto;
+    border-radius: 20px;
+    background:rgba(0, 0, 0, 0.8) url(../img/publicidad-digital1.jpg);
+    margin-top: 10px;
+    background-size: cover;
+    background-blend-mode: darken;
+    margin-top: 60px;
+}
+
+
+
 
 /* CARRUSEL INICIO */
 
@@ -496,9 +557,9 @@ main{
     padding: 10px 10px;
 }
 
-.redes-form icon{
-    width: 40px;
-    
+.redes-form i{
+    font-size: 14px;
+    cursor: pointer;
 }
 
 .redes-form{
@@ -547,6 +608,7 @@ text-align: center;
     padding: 14px 20px;
     cursor: pointer;
     border-radius: 30px;
+    border: 0;
 }
 
 .contact-area{
@@ -601,7 +663,7 @@ text-align: center;
     margin-top: 30px;
     background-size: cover;
     background-blend-mode: darken;
-    
+    border-radius: 20px;
 }
 
 .sction-jobs{
@@ -626,6 +688,7 @@ text-align: center;
     cursor: pointer;
     border-radius: 30px;
     text-align: center;
+    border-color:#7d2ae8;
 }
 
 .form-cv{
@@ -679,7 +742,6 @@ text-align: center;
 
 .card-header1{
     display: flex;
-    /* align-items: center; */
     justify-content:space-between;
 }
 
